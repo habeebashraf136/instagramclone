@@ -19,7 +19,7 @@ app.use(
   expressSession({
     resave: false,
     saveUninitialized: false,
-    secret:secret: process.env.EXPRESS_SESSION_SECRET,
+    secret:process.env.EXPRESS_SESSION_SECRET,
   })
 );
 app.use(flash());
