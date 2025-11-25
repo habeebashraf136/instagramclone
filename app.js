@@ -5,7 +5,7 @@ const indexroute = require('./routes/index');
 const expressSession = require("express-session");
 const flash = require("connect-flash");
 const cookieParser = require("cookie-parser");
-// const mongoose = require('./config/mongooseconnection');
+const mongoose = require('./config/mongooseconnection');
 const port = 3000;
 
 require("dotenv").config();
