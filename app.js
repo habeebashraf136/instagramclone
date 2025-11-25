@@ -5,7 +5,7 @@ const indexroute = require('./routes/index');
 const expressSession = require("express-session");
 const flash = require("connect-flash");
 const cookieParser = require("cookie-parser");
-const mongoose = require('./config/mongooseconnection');
+// const mongoose = require('./config/mongooseconnection');
 const port = 3000;
 
 require("dotenv").config();
@@ -19,7 +19,7 @@ app.use(
   expressSession({
     resave: false,
     saveUninitialized: false,
-    secret: process.env.EXPRESS_SESSION_SECRET,
+    secret: ,
   })
 );
 app.use(flash());
