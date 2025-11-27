@@ -6,9 +6,9 @@ const expressSession = require("express-session");
 const flash = require("connect-flash");
 const cookieParser = require("cookie-parser");
 const mongoose = require('./config/mongooseconnection');
-const port = process.env.PORT,
 
 require("dotenv").config();
+const port = process.env.PORT;
 
 app.set('view engine','ejs');
 app.use(express.static(path.join(__dirname,'public')));
