@@ -31,7 +31,3 @@ app.listen(port ,function(){
   console.log(`server is running on port ${port}`)
 });
 
-
-app.listen(port ,function(){
-  console.log(`server is running on port ${port}`)
-});
